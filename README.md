@@ -28,6 +28,7 @@ We will examine the following 3 properties of random graphs in a graph with V no
   And if Threshold3 > probability then in high probability does not exist in the graph of an isolated node.
   
 Simulations:
+
 In this section we would like to test the properties of random graphs with the help of simulation.
 For each of the 3,2,1 features:
 Choose a list of 10 possible values for probability - so that half arrays probability will be larger than the Threshold and half arrays will be
