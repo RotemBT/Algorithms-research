@@ -1,7 +1,7 @@
 # Algorithms-research
 A project durring a course Algorithm 2 at computer science.
 
-Guidelines: random graph Erdos- Renyi model.
+# Guidelines: random graph Erdos- Renyi model.
 
 Background to the task:
 Random graphs help analyze complex networks. In a random graph the amounts of nodes and arcs are random variables
@@ -10,7 +10,7 @@ In this exercise we will explore features of unintentional random graphs in the 
 In this model the number of nodes in the graph (we will mark it in V) is fixed and given in advance. However, each side between a pair of nodes will appear in the graph
 In a probability p independent of the other sides, where p - is a parameter of the model.
 
-Purpose of the task:
+# Purpose of the task:
 In this exercise we will implement a function to create random graphs and in addition we will build auxiliary functions that will help to explore features of
 The graphs.
 We will examine the following 3 properties of random graphs in a graph with V nodes (V is a large enough):
@@ -27,7 +27,7 @@ We will examine the following 3 properties of random graphs in a graph with V no
   If Threshold3 < probability then in high probability there is an isolated node graph
   And if Threshold3 > probability then in high probability does not exist in the graph of an isolated node.
   
-Simulations:
+# Simulations:
 
 In this section we would like to test the properties of random graphs with the help of simulation.
 For each of the 3,2,1 features:
