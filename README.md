@@ -39,4 +39,4 @@ It is worth estimating the probability that a trait exists. It is possible to ca
 The total of the graphs. Results of simulations can be saved in a file - for example a CSV file. The file can be opened
 Then in EXCEL and build graphs to help summarize work results.
   
-![image of is isolated](file:///C:/Users/rotem/Pictures/Screenshots/IsIsolated.png)
+![IsIsolated](https://user-images.githubusercontent.com/68068799/127785302-eaa6b96b-f07f-457f-ae05-8ae1b500f818.png)
