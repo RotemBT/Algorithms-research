@@ -15,22 +15,22 @@ In this exercise we will implement a function to create random graphs and in add
 The graphs.
 We will examine the following 3 properties of random graphs in a graph with V nodes (V is a large enough):
 
-1. connectivity- Threshold1 = (lnV / V) :
+1. connectivity- Threshold1 = (lnV / V) :<br>
   If Threshold1 < probability then the graph does not connected with high probability,
   And if Threshold1 > probability then the graph connected at high probability.
 
-2. graph diameter- Threshold2 =  sqrt(2lnV/V) :
+2. graph diameter- Threshold2 =  sqrt(2lnV/V) :<br>
   if Threshold2 > probability then in high probability the graph diameter is equal to 2.
   Otherwise the diameter of the graph is greater than 2.  
   
-3.Isolated node- Threshold3 = (lnV / V) :
+3.Isolated node- Threshold3 = (lnV / V) :<br>
   If Threshold3 < probability then in high probability there is an isolated node graph
   And if Threshold3 > probability then in high probability does not exist in the graph of an isolated node.
   
 # Simulations:
 
 In this section we would like to test the properties of random graphs with the help of simulation.
-For each of the 3,2,1 features:
+For each of the 3,2,1 features:<br>
 Choose a list of 10 possible values for probability - so that half arrays probability will be larger than the Threshold and half arrays will be
 Smaller than it.  (For each of the 3 features)
 500 random graphs must be drawn for V = 1000 and for each of the probabilities. Total 5000 per feature (count several)
